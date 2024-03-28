@@ -1,0 +1,48 @@
+/*  "*" applies to all; type applies to all of that type(ex: p or h1){}; ".classname = applies to all of that class   */
+/* #id-name only applies to an ID (only used once)    */
+/* a [href*='string used in id']{add css element}(attribute targets all of that attribute)*/
+/* the styling of the element depends on which is more specific (ex: ID is most specific)*/
+/* type.class will only register for element with type AND class (ex:h2.special)*/
+/*.class (type) picks anything with the class and filters it to type (ex: .main-list li{}*/
+/*type (type) will sort from left to right (ex: h1 p)*/
+/*a comma between types will apply the element to both (ex: h1, h2 {}*/
+/*font-weight = how prominent the letter appears*/
+/*text-align: right, center, left, justify (align w/ right and left side of parent)*/
+/*opacity: how transparent a text is*/
+/*background-image: url('');*/
+/*content, padding, border, margin*/
+/*border: width(of border), style, color; border-radius: modify corners of border*/
+/*padding: (space between text and content of paragraph (left, right, top, bottom)*/
+/*margin: area around the html box(any other html element can not go within _ pixels of that)*/
+/*margin: 0 auto allows to center content (width must be less than width of page)*/
+/*side by side margins combine in px; vertical (up and down margins) take the larger px*/
+/*min-height + max-height as well as min-width and max-width determine the limitations of the elements*/
+/*overflow: any element outside the box can be hideen, scroll(move to see), or visible*/
+/* *{margin:0; padding:0;} to reset margin + padding to work with clean slate*/
+/*visibility: hidden, visible, or collapse (element);;; display: none completely removes element*/
+
+
+body{
+    background-color:#121212 ;
+    color: #0077B5;
+    text-align: center;
+    font-family: 'Calibri';
+}
+
+#homepage{
+    
+}
+
+#image, #quote{
+    text-align: center;
+}
+
+#kareem
+{
+    margin-right: 10px;
+}
+
+#merquery {
+    margin-left:10px;
+}
+
